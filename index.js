@@ -8,27 +8,47 @@ app.on('ready', () => {
         icon: __dirname + '/doge.png'
     });
 
-    
+
 
     mainWindow.loadURL(`file://${__dirname}/index.html`)
 
     const mainMenu = Menu.buildFromTemplate(mainMenuTemplate);
     Menu.setApplicationMenu(mainMenu);
+
 });
 
 const mainMenuTemplate = [
     {
-        label: 'Bem-vindo!',
+        label: 'Bem-vindo!'
+    },
+    {
         label: 'Autores',
         submenu: [
             {
                 label: 'Daniel Lopes'
             },
             {
-                label: 'Samuel Gadoni'
+                label: 'Filipe Davi'
             },
             {
-                label: 'Filipe Davi'
+                label: 'Samuel Gadoni'
+            }
+        ]
+    },
+    {
+        label: 'Participantes',
+        submenu: [
+            {
+                label: 'Sidão ao ministrar as aulas de calorimetria'
+            },
+            {
+                label: 'Documentação do electron'
+            },
+            {
+                label: 'Documentação do JavaScript'
+            },
+            {
+                label: 'Caderno de rascunho do Mário'
             }
         ],
     }

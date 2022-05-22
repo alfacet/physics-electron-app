@@ -52,3 +52,8 @@ input:focus, input:active, button:focus, button:active {
 	outline: none;
 }
 
+.resultado {
+	padding: 10px;
+	border-radius: 20px;
+	background-color: rgb(32, 33, 36);
+}
