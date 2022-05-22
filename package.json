@@ -1,0 +1,30 @@
+{
+	"name": "physics-app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "electron ."
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"electron": "^18.2.4"
+	},
+	"build": {
+		"appId": "com.ipennywis.app",
+		"productName": "Electron App",
+		"target": "NSIS",
+		"directory": {
+			"output": "build"
+		},
+		"nsis": {
+			"allowToChangeInstallationDirectory": true,
+			"oneClick": false
+		}
+	},
+	"dependencies": {
+		"electron-packager": "^15.5.1"
+	}
+}
