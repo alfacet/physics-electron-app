@@ -32,6 +32,9 @@ const mainMenuTemplate = [
             },
             {
                 label: 'Samuel Gadoni'
+            },
+            {
+                label: 'Luís Fernando'
             }
         ]
     },
@@ -39,7 +42,7 @@ const mainMenuTemplate = [
         label: 'Participantes',
         submenu: [
             {
-                label: 'Sidão ao ministrar as aulas de calorimetria'
+                label: 'Sidão ao ministrar as aulas de termologia'
             },
             {
                 label: 'Documentação do electron'
