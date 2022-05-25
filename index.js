@@ -39,7 +39,7 @@ const mainMenuTemplate = [
         ]
     },
     {
-        label: 'Participantes',
+        label: 'Participantes', 
         submenu: [
             {
                 label: 'Sidão ao ministrar as aulas de termologia'
