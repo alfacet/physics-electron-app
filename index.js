@@ -45,7 +45,7 @@ const mainMenuTemplate = [
                 label: 'Sidão ao ministrar as aulas de termologia'
             },
             {
-                label: 'Documentação do electron'
+                label: 'Documentação do Electron'
             },
             {
                 label: 'Documentação do JavaScript'
