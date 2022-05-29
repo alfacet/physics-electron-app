@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cálculos - Aplicação matemática da lei de Fourier</title>
+        <link rel="stylesheet" href="styles/appearence.css">
+    </head>
+    <body>
+        <main>
+            <div>
+                <label>Condutividade térmica do material em cal/s: <input type="number" id="K"/></label>
+                <br> <br>
+                <label>Lado da sala cúbica em m: <input type="number" id="L"/></label>
+                <br> <br>
+                <label>Espessura de suas paredes em m: <input type="number" id="E"/></label>
+                <br> <br>
+                <label>Temperatura externa à ela em °C: <input type="number" id="TE"/></label>
+                <br> <br>
+                <button onclick="calculate()">Calcular!</button>
+            </div>
+            <br>
+            <div class="resultado"><span id="result"></span></div>
+        </main>
+    </body>
+    <script src="src/scripts.jsx"></script>
+</html>
