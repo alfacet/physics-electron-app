@@ -12,6 +12,10 @@ body {
 	align-items: center;
 }
 
+h1::selection, label::selection, a::selection, br::selection, button::selection {
+	background-color: rgb(90, 91, 92);
+}
+
 main {
 	top: 50%;
 	left: 50%;
