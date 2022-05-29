@@ -55,8 +55,12 @@ function calculate() {
         if (temp_externa == 25) 
             result.innerHTML = "Ops! A potência será de 0 W. A temperatura externa é a mesma que 25°C ;)"
 
-        else if (temp_externa < 25) 
-            result.innerHTML = `A potência necessária será de ${potencia.resultadoWatt().toFixed(1)} W`
+        else if (temp_externa < 25) {
+            if (potencia.resultadoWatt() < 1000) 
+                result.innerHTML = `A potência necessária será de ${potencia.resultadoWatt().toFixed(1)} W`
+                
+            else result.innerHTML = `A potência necessária será de ${potencia.resultadoWatt().toFixed(1) / 1000} kW`
+        }
         else result.innerHTML = "Erro: A temperatura externa está superior a 25°C!"
     }
         
