@@ -4,10 +4,10 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"dev": "electron-packager ."
+		"dev": "electron ."
 	},
 	"keywords": [],
-	"author": "",
+	"author": "Alface",
 	"license": "ISC",
 	"devDependencies": {
 		"electron": "^18.2.4",
