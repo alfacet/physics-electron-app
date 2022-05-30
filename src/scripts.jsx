@@ -59,7 +59,7 @@ function calculate() {
             if (potencia.resultadoWatt() < 1000) 
                 result.innerHTML = `A potência necessária será de ${potencia.resultadoWatt().toFixed(1)} W`
                 
-            else result.innerHTML = `A potência necessária será de ${potencia.resultadoWatt().toFixed(1) / 1000} kW`
+            else result.innerHTML = `A potência necessária será de ${(potencia.resultadoWatt()/ 1000).toFixed(1)} kW`
         }
         else result.innerHTML = "Erro: A temperatura externa está superior a 25°C!"
     }
