@@ -39,10 +39,13 @@ const mainMenuTemplate = [
         ]
     },
     {
-        label: 'Participantes', 
+        label: 'Agradecimentos', 
         submenu: [
             {
                 label: 'Sidão ao ministrar as aulas de termologia'
+            },
+            {
+                label: 'Eu mesmo'
             },
             {
                 label: 'Documentação do Electron'
@@ -54,5 +57,13 @@ const mainMenuTemplate = [
                 label: 'Caderno de rascunho do Mário'
             }
         ],
+    },
+    {
+        label: 'Informação',
+        submenu: [
+            {
+                label: 'Não consigo. Não consigo fazer uma função para retornar uma página na web!'
+            }
+        ]
     }
 ];
