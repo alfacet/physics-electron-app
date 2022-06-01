@@ -51,7 +51,7 @@ Prontinho! Agora poderá brincar com inputs sem problemas. Divirta-se! 🙂
 
 De Redes de Computadores 2A do Cefet-MG, os autores
 
-* **EU MESMO** [Filipe Davi](https://github.com/alfacet)
+* [Filipe Davi](https://github.com/alfacet)
 * [Daniel Lopes](https://github.com/Dannzcd)
 * Samuel Gadoni (sem GitHub)
 * Luís Fernando (sem GitHub)
