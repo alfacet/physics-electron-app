@@ -10,9 +10,6 @@ menor que 25°C) . Determine a potencia “P” em W gasta por um aquecedor para
 
 **Saída: P**
 
-## Detalhes!
-Essa é meu primeiro aplicativo feito com Electron, então erros podem acontecer durante a execução. Caso os encontre, reporte, por favor, no email disponibilizada no GitHub. Obrigado!
-
 ## Formas de utilizar a aplicação
 
 Infelizmente, até então, somente é possível compilá-la e executá-la em máquinas Windows de 64 bits. Portanto, caso seja um usuário de Linux de quaisquer distribuições, não será possível que a veja. 
