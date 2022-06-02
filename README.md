@@ -41,7 +41,6 @@ Prontinho! Agora poderá brincar com inputs sem problemas. Divirta-se! 🙂
 * [Electron](https://www.electronjs.org/) (bruh) 
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) 
 * [Node](https://nodejs.org/en/) 
-* [Python](https://www.python.org/)
 
 
 ## Autores
